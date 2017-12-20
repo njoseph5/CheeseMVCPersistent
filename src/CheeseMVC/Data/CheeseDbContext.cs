@@ -10,6 +10,10 @@ namespace CheeseMVC.Data
         public CheeseDbContext(DbContextOptions<CheeseDbContext> options) 
             : base(options)
         { }
+		/*protected override void OnModelCreating(ModelBuilder)
+		{
+			ModelBuilder.Eni
+		}*/
 
     }
 }
